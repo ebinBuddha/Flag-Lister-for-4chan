@@ -1,10 +1,10 @@
 # Flag-Lister-for-4chan
-Lists both original flags and extraFlags in the current page
+Lists both original flags and Extra Flags in the current page
 
 # How to Install
 1. Install GreaseMonkey/TamperMonkey on your browser
 2. Navigate to the following link to install the script:
-   https://github.com/ebinBuddha/ID-Jumper-for-4chan/raw/master/ID-Jumper-for-4chan.user.js
+   https://github.com/ebinBuddha/Flag-Lister-for-4chan/raw/master/Flag-Lister-for-4chan.user.js
 
 # How to Setup - 
 Next steps apply if you want support for regionals from Extra Flags

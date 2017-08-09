@@ -43,10 +43,11 @@ Next steps apply if you want automatic listing of regionals shown by Extra Flags
    var event = new Event('doneExtraFlags');   //<-- add this here
 ```
    
-3. Look for function onFlagsLoad and add the following line just before the closing bracket of the function:
-
+3. Look for function `onFlagsLoad` and add the following line just before the closing bracket of the function:
+```
    document.dispatchEvent(event);
-   
+```
+
    example:
    
 ```

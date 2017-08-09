@@ -155,7 +155,7 @@ var setup = {
                               <div class="innerDiv">Flag lister for 4chan v0.1</div></div>';
         
 		var htmlList = '<div id="tablediv"><br/>\
-                        <button id="' + RefreshID + '" name="refresh">↺</button>\
+                        <button id="' + RefreshID + '" name="refresh" title="force table refresh">↺</button>\
                         <input id="' + mainCheckBoxID +'" type="checkbox" name="check">\
                         <label for="' + mainCheckBoxID +'">List ExtraFlags</label><br/>\
                         <div id="tablediv2"><table border=2 id="' + tableID + '">';
@@ -191,8 +191,8 @@ var setup = {
         if (panelStatus === true) tableDiv.style.display = "block";
         if (panelStatus === false) tableDiv.style.display = "none";
         var toggleButton = document.getElementById(buttonID);
-        if (panelStatus === true) toggleButton.innerHTML = "▲";
-        if (panelStatus === false) toggleButton.innerHTML = "▼";
+        if (panelStatus === true) {toggleButton.innerHTML = "▲"; toggleButton.title = "Hide table"; }
+        if (panelStatus === false){toggleButton.innerHTML = "▼"; toggleButton.title = "Show table"; }
     },
     show: function () {
         /* remove setup window if existing */

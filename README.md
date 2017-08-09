@@ -19,6 +19,9 @@ Want it to be automatic whenever the thread is updated? Read the next paragraph!
 
 # How to Setup automatic list update for regionals (a bit of geekiness may be needed)
 Next steps apply if you want automatic listing of regionals shown by Extra Flags.
+NOTE: Each time the Extra Flags script is updated, the following changes are deleted...
+   you may want to disable automatic updates for that script, so be sure of what you're doing.
+   
 1. Open the Extra Flags to edit it
 2. Add the following line among the first variables (line 56ish):
    var event = new Event('doneExtraFlags');

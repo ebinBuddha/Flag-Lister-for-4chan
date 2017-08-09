@@ -15,6 +15,7 @@
 // @grant       GM_registerMenuCommand
 // @grant       GM_getValue
 // @grant       GM_setValue
+// @grant       GM_addStyle
 // @run-at      document-end
 // @updateURL   https://github.com/ebinBuddha/Flag-Lister-for-4chan/raw/master/Flag-Lister-for-4chan.meta.js
 // @downloadURL https://github.com/ebinBuddha/Flag-Lister-for-4chan/raw/master/Flag-Lister-for-4chan.user.js
